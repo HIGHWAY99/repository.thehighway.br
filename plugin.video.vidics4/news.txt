@@ -1,0 +1,14 @@
+
+
+[COLOR grey][Date: 2014.01.12][/COLOR][COLOR black][Post: 1][/COLOR]
+[COLOR red][B]News:[/B][/COLOR]  Noticed that the site has been shutdown.
+
+[COLOR grey][Date: 2013.09.04][/COLOR][COLOR black][Post: 1][/COLOR]
+[COLOR cornflowerblue][B]Release:[/B][/COLOR]  v0.2.5
+
+[COLOR grey][Date: 2013.08.25][/COLOR][COLOR black][Post: 2][/COLOR]
+[COLOR cornflowerblue][B]Release:[/B][/COLOR]  v0.2.4 (Testing)
+
+[COLOR grey][Date: 2013.08.25][/COLOR][COLOR black][Post: 1][/COLOR]
+[COLOR red][B]News:[/B][/COLOR]  Initial Build (Still Under Construction)
+
