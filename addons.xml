@@ -173,6 +173,52 @@
   </extension>
 </addon>
 
+<addon version="0.0.5" id="repository.thehighway" name="TheHighway's Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
+	<extension point="xbmc.addon.repository" name="TheHighway's Addons">
+		<dir minversion="12.9.0">
+			<info compressed="true">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/addons.bb.xml</info>
+			<checksum>http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/addons.bb.xml.md5</checksum>
+			<datadir zip="true">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/repo/</datadir>
+		</dir>
+		<info compressed="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml</info>
+		<checksum>http://raw.github.com/HIGHWAY99/repository.thehighway/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/HIGHWAY99/repository.thehighway/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons</summary>
+		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].  Also I'm often on chat.freenode.net:6667 #TVADDONS for those who have a IRC Chat client.  For those without one, check the forum for the website app to connect to it and chat with us.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
+		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon version="0.0.5" id="repository.thehighway.bb" name="TheHighway's Backup Repo on BitBucket" provider-name="The[COLOR tan]Highway[/COLOR]">
+	<extension point="xbmc.addon.repository" name="TheHighway's Backup Repo on BitBucket">
+		<info compressed="false">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/addons.bb.xml</info>
+		<checksum>http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/addons.bb.xml.md5</checksum>
+		<datadir zip="true">http://bitbucket.org/HIGHWAY99/repository.thehighway.bb/raw/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install The[COLOR tan]Highway[/COLOR]'s Addons from the BB alternative location.</summary>
+		<description>Download and install addons by The[COLOR tan]Highway[/COLOR].  If you are not currently a registered user of XBMCHUB's forum please feel free to help me out by using my referrer code ( http://www.xbmchub.com/forums/register.php?referrerid=15468 ) and register.  Also I'm often on irc.freenode.net:6667 #XBMCHUB for those who have a IRC Chat client.  For those without one, check the forum for the website app to connect to it and chat with us.  We're often AFK or busy with other things, so feel free to sit with us or drop a message for us to read when we get a chance.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon version="0.0.1" id="repository.thehighway" name="TheHighway's Broken and Outdated Addons" provider-name="The[COLOR tan]Highway[/COLOR]">
+	<extension point="xbmc.addon.repository" name="TheHighway's Broken and Outdated Addons">
+		<info compressed="true">http://raw.github.com/HIGHWAY99/repository.thehighway.br/master/addons.xml</info>
+		<checksum>http://raw.github.com/HIGHWAY99/repository.thehighway/master.br/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/HIGHWAY99/repository.thehighway.br/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The[COLOR tan]Highway[/COLOR]'s Broken and Outdated Addons.</summary>
+		<description>A collection of addons by The[COLOR tan]Highway[/COLOR].  The graveyard to which my addons shall rest in once put to rest.</description>
+		<disclaimer>By using this, you take reponsibility for anything that happens.  Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon version="0.0.1" id="repository.TheHighwaysEasyInstallRepo" name="TheHighways Easy Fresh Install Addon Collection" provider-name="The[COLOR tan]Highway[/COLOR]">
 	<extension point="xbmc.addon.repository" name="TheHighway's Easy Fresh Install Addon Collection">
 		<info compressed="false">http://github.com/HIGHWAY99/repository.thehighway/raw/master/repoEasyInstall.xml</info>
