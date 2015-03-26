@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="General">
+		<setting id="pages"    type="labelenum" label="Number of Pages" values="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|25|30|35|40|45|50|55|60|70|80|90|99|100"             default="1" visible="false" />
+		<setting id="enableMeta" 		type="bool" label="Enable Metadata" default="false" visible="false"/>
+		<setting id="debug-enable" 	type="bool" label="Enable Debugging" default="false" visible="true"/>
+		<setting id="debug-show" 		type="bool" label="Show Debugging" default="false" visible="true"/>
+	</category>
+  <category label="32001">
+    <setting label="32011" type="text"   id="username" default=""/>
+    <setting label="32012" type="text"   id="password" option="hidden"  enable="!eq(-1,)" default=""/>
+    <setting label="32053" type="slider" id="limit" subsetting="true" default="20" range="5,5,100" option="int" />
+    <setting type="sep"/>
+    <setting id="debug" type="bool" label="32013" default="false"/>
+  </category>
+  <category label="32010">
+    <setting label="32032" type="action" action="RunScript($CWD/resources/lib/viewer.py, downloadreport)"/>
+  </category>
+</settings>

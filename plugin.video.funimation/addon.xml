@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.funimation"
+       name="Funimation (Under Construction)"
+       version="0.0.5"
+       provider-name="TheHighway">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.elementtree" />
+    <import addon="script.module.cryptopy" />
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="funimation.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Funimation video plugin</summary>
+    <description lang="en">Videos from Funimation.com</description>
+    <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <forum>http://www.xbmchub.com/forums/highway99s-xbmc-repo/</forum>
+    <website>http://www.xbmchub.com/</website>
+    <broken>Abandoned due to security and need of using hulu addon without the needed data.</broken>
+  </extension>
+</addon>

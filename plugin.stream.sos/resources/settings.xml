@@ -1,0 +1,20 @@
+<settings>
+	<category label="General">
+		<setting id="core-player" type="labelenum" default="AUTO" visible="true" label="Player Core" values="AUTO|DVDPLAYER|MPLAYER|PAPLAYER" />
+		<setting visible="false" type="bool"		id="enable-accountinfo" label="Enable Account"  	default="false" />
+		<setting visible="true" type="text"		id="username"						label="Username"  				default="" />
+		<setting visible="true" type="text"		id="password" 					label="Password"    			default="" option="hidden" />
+		<setting visible="false" type="bool"		id="enable-custom-url" 	label="Enable Custom URL (Streams)"  	default="false" />
+		<setting visible="false" type="text"		id="custom-url"					label="Custom URL (Domain or IP)"  				default="" />
+		<setting visible="true" type="bool"		id="enable-custom-url2" 	label="Enable Custom URL (Lists)"  	default="false" />
+		<setting visible="true" type="text"		id="custom-url2"					label="Custom URL (Domain or IP)"  				default="" />
+		<setting visible="false" type="bool"		id="enable-cat-all" 		label="Enable Category: All"  	default="false" />
+	</category>
+	<category label="Auto-View">
+		<setting id="auto-view" type="bool"   label="Enable Automatic View" default="false"/>
+		<setting id="default-view" type="number" label="Default"      default="50" />
+		<setting id="front-view"   type="number" label="Front Menu"   default="500" />
+		<setting id="browse-view"  type="number" label="Browse"       default="503" />
+		<setting id="quality-view"  type="number" label="Quality"       default="50" />
+	</category>
+</settings>
